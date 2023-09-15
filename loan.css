@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+   
+  }
+
+  .applyloan {
+    max-width: 300px;
+    margin: 0px auto; /* Adjusted margin to move the container a little higher */
+    padding: 5px;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 10px;
+    top: 0px; /* Adjusted to move the container to the top */
+    left: 8px;
+    text-shadow: 0.5px 0.5px black;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 180px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 0px;
+  }
+  
+
+  
+  #loanResult {
+    margin-top: 0px;
+    text-align: left;
+  }
+  
+
+
+
+
+
+  /* currency convert */
+body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    max-width: 400px;
+    margin: 2px auto; /* Adjusted margin to move the container a little higher */
+    padding: 20px;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 10px;
+    top: 1px; /* Adjusted to move the container to the top */
+    left: 3px;
+    text-shadow: 0.5px 0.5px black;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 15px; /* Adjusted font size to make the heading larger */
+    margin-bottom: 5px; /* Increased margin to separate the heading from the input fields */
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; 
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input,
+  select {
+    padding: 5px;
+    width: 100%;
+  }
+  
+  /* Media query to adjust font size and padding for smaller screens */
+  @media (max-width: 400px) {
+    .container {
+      font-size: 8px;
+    }
+  
+    h1 {
+      font-size: 2px;
+    }
+  
+    input,
+    select {
+      padding: 4px;
+    }
+  }
+  

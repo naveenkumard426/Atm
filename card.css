@@ -1,0 +1,80 @@
+/* You can add your CSS styles here to customize the look of the ATM interface */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+  .container1 {
+    max-width: 300px;
+    margin: 0px auto; /* Adjusted margin to move the container a little higher */
+    padding: 5px;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 10px;
+    top: 0px; /* Adjusted to move the container to the top */
+    left: 8px;
+    text-shadow: 0.5px 0.5px black;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  #tutorialContent {
+    display: none;
+    margin-top: 0px;
+  }
+  
+  #cardApplicationForm {
+    max-width: 180px;
+    margin: 0 auto;
+    font-size: 11px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 0px;
+  }
+  
+  
+  #applicationResult {
+    margin-top: 0px;
+    text-align: center;
+  }
+  
+
+  /* Other CSS styles... */
+
+.cardTypeAndButton {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .cardTypeAndButton label {
+    margin-right: 18px;
+  }
+  
+  .cardTypeAndButton button {
+    margin-left: 32px;
+  }
+  
+  /* Other CSS styles... */
+  
